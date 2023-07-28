@@ -3,8 +3,7 @@ PODS:
   - Flutter (1.0.0)
   - lightstreamer_flutter_client (1.0.0):
     - Flutter
-    - LightstreamerClient (~> 5.0.0-beta.4)
-  - LightstreamerClient (5.0.3):
+  - LightstreamerClient (5.0.3-custom):
     - Alamofire (~> 5.2)
     - RMJSONPatch (~> 1.0)
     - Starscream (~> 4.0)
@@ -14,7 +13,7 @@ PODS:
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - lightstreamer_flutter_client (from `.symlinks/plugins/lightstreamer_flutter_client/ios`)
-  - LightstreamerClient (from `https://github.com/puzakd/Lightstreamer-lib-client-swift.git`, branch `main`)
+  - LightstreamerClient (from `https://github.com/puzakd/Lightstreamer-lib-client-swift.git`)
 
 SPEC REPOS:
   trunk:
@@ -28,22 +27,21 @@ EXTERNAL SOURCES:
   lightstreamer_flutter_client:
     :path: ".symlinks/plugins/lightstreamer_flutter_client/ios"
   LightstreamerClient:
-    :branch: main
     :git: https://github.com/puzakd/Lightstreamer-lib-client-swift.git
 
 CHECKOUT OPTIONS:
   LightstreamerClient:
-    :commit: a3b9adc4f98f3b089ebcbe59e28e5d666e69aa1c
+    :commit: d74cc05770877d8167d9ddafb49ac94414ee8ad6
     :git: https://github.com/puzakd/Lightstreamer-lib-client-swift.git
 
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  lightstreamer_flutter_client: 7517720aa4b2127b305bbc3517ed08ecb6d9a1c4
-  LightstreamerClient: 9da3d2247ba967be0ab73e202bdb4d856b97ce1f
+  lightstreamer_flutter_client: 6e77502a6952086847f2cb09c5af00de2ccc82bf
+  LightstreamerClient: 16ea57245ed9913cc9d75c060b9cc309d849893b
   RMJSONPatch: 60d351ad27d164352f8ea6b055c07c976f1bd2d1
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
 
-PODFILE CHECKSUM: 0f843716f3073afe500852c689ef65d0b805ab39
+PODFILE CHECKSUM: 27fe6e14980ae0c9eb4eabb2b083da6d497ead52
 
 COCOAPODS: 1.12.1
